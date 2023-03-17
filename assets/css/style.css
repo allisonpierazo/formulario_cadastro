@@ -45,12 +45,11 @@ h2{
     font-size: 16px;
     color: #FFF;
 }
-.name,
+.fullname,
 .company,
 .email,
 .tel,
 .gender {
-    display: flex;
     margin-top: 50px;
 }
 .flname_span, 
@@ -65,12 +64,12 @@ h2{
     margin-left: 10px;
 }
 .fname {
-    width: 60%;
+    width: 35%;
     height: 30px;
-    margin-left: 61px;
+    margin-left: 20px;
 }
 .lname {
-    width: 60%;
+    width: 35%;
     height: 30px;
 }
 .fnamelabel{
@@ -105,14 +104,14 @@ h2{
     margin-left: 20px;
 }
 .tel_input {
-    width: 48%;
+    width: 47%;
     height: 30px;
     margin-left: 20px;
 }
 
 select {
     margin-left: 20px;
-    width: 72%;
+    width: 71%;
     height: 30px;
     background-color: #c2c2c2;
 }
@@ -165,4 +164,122 @@ img {
 h5 a{
     text-decoration: none;
     color: #FFF;
+}
+@media (max-width:1000px){
+    body{
+        background-attachment: fixed;
+    }
+    form{
+        width: 70%;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .flname_span, 
+    .company_span,
+    .email_span,
+    .tel_span,
+    .gender_span,
+    .question_span{
+        display: inline-block;
+        width: 40px;
+        text-align: right;
+        margin-left: 10px;
+    }
+    .fname {
+        height: 33px;
+        flex-direction: row;
+       
+    }
+    .lname {
+        width: 33%;
+        height: 30px;
+    }
+    .cod{
+        width: 19%;
+        height: 30px;
+    }
+    .tel_input{
+        width: 42%;
+        height: 30px;
+    }
+    .submit_button{
+        width: 42%;
+        height: 30px
+    }
+    footer{
+        height: 68px;
+    }
+    .radio_1,
+    .radio_2{
+        color: #FFF;
+    }
+}
+@media (max-width:400px){
+    body{
+        background-attachment: fixed;
+    }
+    form{
+        width: 60%;
+        height: 1%;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .fullname,
+    .company,
+    .email,
+    .tel,
+    .gender {
+    margin-top: 20px;
+    }
+    .flname_span, 
+    .company_span,
+    .email_span,
+    .tel_span,
+    .gender_span,
+    .question_span{
+        display: inline-block;
+        width: 30px;
+        text-align: right;
+        margin-left: 10px;
+    }
+    .fname {
+        width: 30%;
+        height: 30px;
+        flex-direction: row;
+       
+    }
+    .lname {
+        width: 30%;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .company_input{
+        width: 64%;
+        height: 30px; 
+    }
+    .email_input {
+        width: 64%;
+        height: 30px; 
+    }
+    .cod{
+        width: 26%;
+        height: 30px;
+    }
+    .tel_input{
+        width: 26%;
+        height: 30px;
+    }
+    .submit_button{
+        width: 64%;
+        height: 64%;
+    }
+    footer{
+        height: 68px;
+    }
+    .radio_1,
+    .radio_2{
+        color: #FFF;
+    }
 }
