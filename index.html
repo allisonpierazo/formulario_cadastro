@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, user scalable=0" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+<title>Formulário de Cadastro</title>
+<body>
+    <header>
+            <div class="form">
+                <h1>Formulário de Cadastro</h1>
+            </div>    
+    </header>
+    <section>
+        <form>
+            <div class="fullname">
+                <div class="name">
+                    <span class="flname_span"><h2 class="flname">Nome e<br>Sobrenome</h2></span>
+                    <input type="text" class="fname" required placeholder="Digite o seu nome" /><br>
+                    <label class="fnamelabel">Nome</label>
+                    <input type="text" class="lname" required placeholder="Digite o seu sobrenome" />
+                    <label class="lnamelabel">Sobrenome</label>
+                </div>
+            </div>
+            
+            <div class="company">
+                <span class="company_span"><h2>Empresa</h2></span>
+                <input type="text" name="company" class="company_input" required placeholder="Digite o nome da sua empresa">
+            </div>
+            <div class="email">
+                <span class="email_span"><h2>Email</h2></span>
+                <input type="email" name="email" class="email_input" required placeholder="Digite o seu email">
+            </div>
+            <div class="tel">
+                <span class="tel_span"><h2>Telefone com<br> DDD</h2></span>
+                <input type="text" name="cod" class="cod" required placeholder="DDD">
+                <input type="tel" name="tel"  class="tel_input" required placeholder="Digite o seu telefone">
+            </div>
+            <div class="gender">
+                <span class="gender_span"><h2>Sexo</h2></span>
+                <select name="gender" class="gender_sex">
+                    <option disabled="disabled" selected="selected">--Selecione a Opção</option>
+                    <option value="male">Masculino</option>
+                    <option value="fem">Feminino</option>
+                </select>
+                </div>
+            <div class="question">
+                <h2>Você é iniciante?</h2>
+                <div class="radio">
+                    <input type="radio" name="question" class="radio_1" required>
+                    <label class="radio_1" class="labelradio1">Sim</label>
+                    <input type="radio" name="question" class="radio_2"required>
+                    <label class="radio_2" class="labelradio2">Não</label>
+                </div>
+            </div>
+                <div class="submit">
+                    <input type="button" name="submit" class="submit_button" required value="Enviar">
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="developer">
+            <h2 class="developer_title">Desenvolvido por Allison Oliveira</h2>
+            <h5>Layout e Imagem:<a href="https://github.com/Leonardo-Lourenco/Formulario-de-Cadastro" target="_blank">Leonardo-Lourenco</a></h5>
+        </div>
+        <a href="https://www.facebook.com/allison.oliveira.986?mibextid=ZbWKwL" target="_blank"><img src="assets/Images/face.png"></a>
+        <a href="https://instagram.com/allisonpierazo?igshid=ZDdkNTZiNTM=" target="_blank"><img src="assets/Images/instagram.png"></a>
+        <a href="https://www.linkedin.com/in/allison-oliveira-82b3759b" target="_blank"><img src="assets/Images/linkedin.png"></a>
+        <a href="https://github.com/allisonpierazo" target="_blank"><img src="assets/Images/github.png"></a>
+    </footer>
+</body>
+</head>
+</html>
