@@ -187,7 +187,8 @@ h5 a{
         margin-left: 10px;
     }
     .fname {
-        height: 33px;
+        width: 33%;
+        height: 30px;
         flex-direction: row;
        
     }
@@ -219,9 +220,11 @@ h5 a{
     body{
         background-attachment: fixed;
     }
+    .form{
+        width:80%;
+    }
     form{
-        width: 60%;
-        height: 1%;
+        width: 80%;
     }
     h2{
         font-size: 10px;
@@ -231,7 +234,7 @@ h5 a{
     .email,
     .tel,
     .gender {
-    margin-top: 20px;
+    margin-top: 5px;
     }
     .flname_span, 
     .company_span,
@@ -247,8 +250,6 @@ h5 a{
     .fname {
         width: 30%;
         height: 30px;
-        flex-direction: row;
-       
     }
     .lname {
         width: 30%;
